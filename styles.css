@@ -1,0 +1,31 @@
+*{
+    box-sizing : border-box;
+  }
+  .clock{
+    border:1px solid black;
+    border-radius:200px;
+    margin:0 auto;
+    width:20rem;
+    height:20rem;
+  }
+  
+  .hand{
+    position:absolute;
+    top:10rem;
+    width:8rem;
+    height:3px;
+    background:black;
+    margin-left:30px;
+    transform-origin:100%;
+    transform:rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  .hour-hand{
+  }
+  .minute-hand{
+    
+  }
+  .second-hand{
+    
+  }
